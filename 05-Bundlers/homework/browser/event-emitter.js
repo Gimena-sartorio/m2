@@ -1,6 +1,5 @@
-(function () {
 
-  window.EventEmitter = EventEmitter;
+  //window.EventEmitter = EventEmitter; -  esta exponiendo una variable en el objeto global// 
 
   // our EventEmitter constructor function
   function EventEmitter () {
@@ -43,4 +42,4 @@
 
   };
 
-})();
+module.exports= EventEmitter;
