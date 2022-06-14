@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    justify-content: right;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+}
+.btnSearch{
+    border: 1px solid darkgreen;
+    background-color: darkgreen;
+    margin-left: 10px;
+    color: white;
+}
+.btnSearch:hover{
+    background-color: white;
+    color: black;
+ }
